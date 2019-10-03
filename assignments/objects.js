@@ -82,8 +82,10 @@ console.log(kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 
-// const multiplyNums = a * blur;
-console.log(antonietta.multiplyNums(3,4));
+antonietta.multiplyNums = function(num1, num2) {
+  return num1 * num2;
+ }
+ console.log(antonietta.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
 
@@ -94,7 +96,9 @@ console.log(antonietta.multiplyNums(3,4));
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
-const parent = {}
+const parent = {
+
+}
 
 // Log the parent object's name
 
